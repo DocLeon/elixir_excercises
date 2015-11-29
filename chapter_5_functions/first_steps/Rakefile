@@ -1,0 +1,4 @@
+desc "run handle_open"
+task :default do
+  sh "elixir handle_open.exs"
+end
